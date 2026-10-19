@@ -10,15 +10,15 @@
 // --------------------------------------------------
 
 // First, we create a variable for the current scene being displayed
-let currentScene = "backyard";
+let currentScene = "prologe";
 
 // Then, we create an object that stores the data for each scene,
 const scenes = {
-  // See "backyard" for the first example
-  backyard: {
-    title: "Location: Backyard",
-    character: "Interviewee:Grandma",
-    text: "Text: well what I remember happening is that Darcie went inside to play with her pretend kitchen, I heard her neighbor mention he was really hungry, and the dog ran around really quickly",
+  // See "prologe" for the first example
+  prologue: {
+    title: "The Prologue",
+    image: "Sad face of grandma ",
+    text: "It’s Grandpa’s 80th birthday. The lights go out during dinner. When they come back on, his 100-year-old gold watch is gone. Three people were close enough to take it. You have until midnight to find out who.Marta, the cook. Been with the family 20 years. In and out of the kitchen all night.Sam, the gardener. Dropped off flowers for the party. Standing near the dessert table when the lights went out. Dave, the cousin. Showed up late. Sat closest to Grandpa. Short on money lately.",  
     // you can choose how many choices to include
     // each choice can have text, an action, and/or nextScene
     choices: [
